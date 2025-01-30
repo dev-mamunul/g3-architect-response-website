@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) and (max-width: 992px){
+    .navbar, 
+    .nav_links, 
+    .teams{
+        flex-direction: column;
+    }
+    .team_image_container, 
+    .fact_container,
+    .sponsor_company{
+        grid-template-columns: repeat(1, 1fr);       
+    }
+    .team_features{
+        margin-left: 20px;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .team_features{
+        margin: 50px auto;
+    }
+    .fact_container, .sponsor_company{
+        justify-items: center;
+        gap: 24px;
+    }
+    .sponsor_company{
+        justify-items: center;
+        gap: 50px;
+    }
+}
+
